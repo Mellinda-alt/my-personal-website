@@ -1,3 +1,120 @@
-body {
-    background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    background: #eab595;
+}
+
+.intro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+}
+
+.logo{
+    font-size: 25px;
+    color:brown;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 2s;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.main{
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding:0 10%;
+}
+
+.home{
+    max-width: 600px;
+    margin: 20px 0 20px;
+}
+
+.home h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #856b50;
+}
+
+.home p{
+    font-size: 16px;
+}
+
+img{
+    height: 500px;
+    margin: 100px;
+    padding: auto;
+
+}
+
+div.mar{
+    height: 500px;
+    width: 1000px;
+    background-size: cover;
+}
+
+.line{
+    color: #6a4a3a;
+}
+#cont{
+    color: #6a4a3a;
+}
+
+
+
+div .comp{
+    height: 500px;
+    width: 500px;
+    
+}
+
+div .mar:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+div .comp:hover{
+    transform:scale(1.05);
+    transition: o.2s;
+}
+
+div .cod:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
 }

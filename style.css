@@ -44,8 +44,7 @@ body{
     transition: 2s;
 }
 
-.navbar a:hover,
-.navbar a.homie{
+.navbar a:hover{
     color: blue;
 }
 
